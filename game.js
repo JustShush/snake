@@ -8,9 +8,19 @@ const gameBoard = document.getElementById('game-board')
 
 function main(currentTime) {
   if (gameOver) {
+    
+    // -----------------------------------------------
+    // Only use this part for it to work on github dont use it in your main project use the one below from line 21 to 23
     if (confirm('You lost. Press ok to restart.')) {
-      window.location = '/'
+      location.reload()
     }
+    // -----------------------------------------------
+
+    // -----------------------------------------------
+    /*if (confirm('You lost. Press ok to restart.')) {
+      window.location = '/'
+    }*/
+    // -----------------------------------------------
     return
   }
 
