@@ -25,6 +25,14 @@ window.addEventListener('keydown', e => {
   }
 })
 
+window.addEventListener('keypress', e => {
+  switch (e.key) {
+    case 'r':
+      location.reload()
+      break
+  }
+})
+
 export function getInputDirection() {
   lastInputDirection = inputDirection
   return inputDirection
