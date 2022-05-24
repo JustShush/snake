@@ -19,7 +19,7 @@ window.addEventListener('keydown', e => {
       if (lastInputDirection.x !== 0) break
       inputDirection = { x: 1, y: 0 }
       break
-    case 'R':
+    case 'r':
       location.reload()
       break
   }
